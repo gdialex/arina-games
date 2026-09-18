@@ -27,4 +27,15 @@ python3 -m http.server 4173 --directory dist
 - `dist/assets/` — локальные фотографии и обложки.
 - `ASSETS.md` — источники обложек.
 
-Фотографии личные. Репозиторий создан приватным. При публикации на Vercel проверьте выбранный доступ к сайту.
+Репозиторий публичный по решению владельца. Фотографии предоставлены владельцем для этого сайта.
+
+## Vercel CLI
+
+Проект Vercel: `arina-games-2v1t`, команда: `alexandrvotyakov-1931s-projects`.
+
+```sh
+npx vercel link --project arina-games-2v1t --scope alexandrvotyakov-1931s-projects
+npx vercel deploy --prod
+```
+
+Авторизация хранится локально вне репозитория. Файлы `.env*` и `.vercel/` исключены из Git.
